@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background-image: url("../images/banner.jpg");
+    padding: 97px 0px 0px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 640px;
+}
+.box{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    /* position: absolute; */
+    
+}
+
+.left_section{
+    width: 90%;
+   
+}
+
+.card1{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: auto;
+}
+
+.card2{
+    background-image: url("../images/product_bg.jpg");
+    padding: 97px 0px 0px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 640px;
+}
+
+.box1{
+width:90%;
+margin: auto;
+}
+
+.text{
+    border-bottom: 3px solid #F2C119;
+    color:black;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+
+.productCard{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+.singleProduct{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bottomSection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+
+}
+
+.Box{
+    margin: auto;
+    padding: 30px 110px 30px 110px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.Box1{
+    width: 100%;
+    height: 100px;
+    background-color: #F3A20D;
+}
+/* ----------------------------------Sign Up & Sign In CSS--------------------------------------- */
+.Signup{
+     background-image: url("../images/product_bg.jpg");
+    padding: 97px 0px 0px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 740px;
+}
+.signup{
+    width: 40%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* position: absolute; */
+};
+
+
+/* --------------------------------------------------Cart Page CSS---------------------------------------------- */
+
+.Container{
+    width:80%;
+   margin: auto;
+   justify-content: center;
+   margin-top: 800px;
+}
+.Card{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+};
+
+
+/* --------------------------------------------------Payment Page Css---------------------------------------------- */
+
+.singleProduct{
+    border:1px solid red;
+    background-color: blueviolet;
+}
+
+.form{
+    width:40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: blanchedalmond;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+/* --------------------------------------shopping page css------------------------------------------ */
+
+.shopping{
+    background-image: url("../images/banner.jpg");
+    padding: 97px 0px 0px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 640px;
+}
