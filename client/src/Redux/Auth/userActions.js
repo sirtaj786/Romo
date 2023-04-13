@@ -4,7 +4,7 @@ import axios from 'axios';
 export const signupAPI = (userData)=>async(dispatch)=>{
     dispatch({type:SIGNUP_USER_LOADING});
     try {
-        const response = await axios.post('http://localhost:7600/signup',userData);
+        const response = await axios.post('http://localhost:8080/signup',userData);
         //console.log(response.data);
         dispatch({type:SIGNUP_USER_SUCCESS,payload:response.data})
     } catch (error) {
@@ -15,7 +15,7 @@ export const signupAPI = (userData)=>async(dispatch)=>{
 export const signinAPI = (userData)=>async(dispatch)=>{
     dispatch({type:SIGNIN_USER_LOADING});
     try {
-        const response = await axios.post('http://localhost:7600/signin',userData);
+        const response = await axios.post('http://localhost:8080/signin',userData);
         //console.log(response.data);
         dispatch({type:SIGNIN_USER_SUCCESS,payload:response.data})
     } catch (error) {

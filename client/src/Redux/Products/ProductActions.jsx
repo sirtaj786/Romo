@@ -8,7 +8,7 @@ import {
 export const getData = (dispatch) => {
   dispatch({ type: GET_PRODUCT_LOADING });
 
-  fetch("http://localhost:7600/getProducts")
+  fetch("http://localhost:8080/getProducts")
     .then((res) => res.json())
     .then((res) => {
       //console.log(res)
